@@ -27,6 +27,8 @@
 {
     [super viewDidLoad];
     
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.95 green:0.95 blue:0.95 alpha:0.9];
+
     self.profileImageView.layer.cornerRadius = self.profileImageView.frame.size.width / 2;
     self.profileImageView.layer.borderWidth = 1.0;
     self.profileImageView.layer.borderColor = [UIColor grayColor].CGColor;
