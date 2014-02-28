@@ -19,6 +19,10 @@
 		FB0C789B18C11E0A008F1BB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0C788318C11E0A008F1BB4 /* UIKit.framework */; };
 		FB0C78A318C11E0A008F1BB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB0C78A118C11E0A008F1BB4 /* InfoPlist.strings */; };
 		FB0C78A518C11E0A008F1BB4 /* Network_StyleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0C78A418C11E0A008F1BB4 /* Network_StyleTests.m */; };
+		FB0C78AF18C11EA3008F1BB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0C78AE18C11EA3008F1BB4 /* Main.storyboard */; };
+		FB0C78B218C1205D008F1BB4 /* NetStyleTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0C78B118C1205D008F1BB4 /* NetStyleTabBarController.m */; };
+		FB0C78B518C12113008F1BB4 /* NetStyleProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0C78B418C12113008F1BB4 /* NetStyleProfileViewController.m */; };
+		FB0C78B818C12C4B008F1BB4 /* profpic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB0C78B718C12C4B008F1BB4 /* profpic.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		FB0C78A018C11E0A008F1BB4 /* Network StyleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Network StyleTests-Info.plist"; sourceTree = "<group>"; };
 		FB0C78A218C11E0A008F1BB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FB0C78A418C11E0A008F1BB4 /* Network_StyleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Network_StyleTests.m; sourceTree = "<group>"; };
+		FB0C78AE18C11EA3008F1BB4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FB0C78B018C1205D008F1BB4 /* NetStyleTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetStyleTabBarController.h; sourceTree = "<group>"; };
+		FB0C78B118C1205D008F1BB4 /* NetStyleTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetStyleTabBarController.m; sourceTree = "<group>"; };
+		FB0C78B318C12113008F1BB4 /* NetStyleProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetStyleProfileViewController.h; sourceTree = "<group>"; };
+		FB0C78B418C12113008F1BB4 /* NetStyleProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetStyleProfileViewController.m; sourceTree = "<group>"; };
+		FB0C78B718C12C4B008F1BB4 /* profpic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profpic.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +121,10 @@
 				FB0C788F18C11E0A008F1BB4 /* NetStyleAppDelegate.m */,
 				FB0C789118C11E0A008F1BB4 /* Images.xcassets */,
 				FB0C788618C11E0A008F1BB4 /* Supporting Files */,
+				FB0C78B318C12113008F1BB4 /* NetStyleProfileViewController.h */,
+				FB0C78B418C12113008F1BB4 /* NetStyleProfileViewController.m */,
+				FB0C78B018C1205D008F1BB4 /* NetStyleTabBarController.h */,
+				FB0C78B118C1205D008F1BB4 /* NetStyleTabBarController.m */,
 			);
 			path = "Network Style";
 			sourceTree = "<group>";
@@ -118,6 +132,8 @@
 		FB0C788618C11E0A008F1BB4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FB0C78B618C12C0F008F1BB4 /* default_images */,
+				FB0C78AE18C11EA3008F1BB4 /* Main.storyboard */,
 				FB0C788718C11E0A008F1BB4 /* Network Style-Info.plist */,
 				FB0C788818C11E0A008F1BB4 /* InfoPlist.strings */,
 				FB0C788B18C11E0A008F1BB4 /* main.m */,
@@ -142,6 +158,14 @@
 				FB0C78A118C11E0A008F1BB4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB0C78B618C12C0F008F1BB4 /* default_images */ = {
+			isa = PBXGroup;
+			children = (
+				FB0C78B718C12C4B008F1BB4 /* profpic.jpg */,
+			);
+			name = default_images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,7 +245,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB0C788A18C11E0A008F1BB4 /* InfoPlist.strings in Resources */,
+				FB0C78B818C12C4B008F1BB4 /* profpic.jpg in Resources */,
 				FB0C789218C11E0A008F1BB4 /* Images.xcassets in Resources */,
+				FB0C78AF18C11EA3008F1BB4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +268,8 @@
 			files = (
 				FB0C789018C11E0A008F1BB4 /* NetStyleAppDelegate.m in Sources */,
 				FB0C788C18C11E0A008F1BB4 /* main.m in Sources */,
+				FB0C78B518C12113008F1BB4 /* NetStyleProfileViewController.m in Sources */,
+				FB0C78B218C1205D008F1BB4 /* NetStyleTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
