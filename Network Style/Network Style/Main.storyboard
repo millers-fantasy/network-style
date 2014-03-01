@@ -49,6 +49,19 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xmN-Bz-nsV">
+                                <rect key="frame" x="44" y="461" width="233" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Explore your colleagues">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vZp-Rw-bS6" kind="push" id="evo-dE-DF4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -64,7 +77,36 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JzD-ba-JS7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1017" y="-430"/>
+            <point key="canvasLocation" x="1017" y="-405"/>
+        </scene>
+        <!--Net Style Colleagues Table View Controller - Capitalize on your connections-->
+        <scene sceneID="l0Q-9C-Ymz">
+            <objects>
+                <tableViewController id="vZp-Rw-bS6" customClass="NetStyleColleaguesTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="wbL-mp-LEd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="18H-Eq-Ny6">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="18H-Eq-Ny6" id="9Ae-Um-Rkl">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="vZp-Rw-bS6" id="Ujw-Jy-hUv"/>
+                            <outlet property="delegate" destination="vZp-Rw-bS6" id="utE-4g-rlW"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Capitalize on your connections" id="2Kr-73-UIk"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f2q-XY-ugZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1502" y="-398"/>
         </scene>
         <!--Navigation Controller - Profile Navigaion-->
         <scene sceneID="S9E-CB-kDf">
@@ -96,17 +138,18 @@
                     </tabBar>
                     <connections>
                         <segue destination="wvO-if-Xdg" kind="relationship" relationship="viewControllers" id="deo-ue-BJ1"/>
-                        <segue destination="Efd-ld-fFi" kind="relationship" relationship="viewControllers" id="WDt-2V-IKt"/>
+                        <segue destination="RXH-TN-wt5" kind="relationship" relationship="viewControllers" id="mfR-tA-TEZ"/>
+                        <segue destination="ZtV-ff-bhk" kind="relationship" relationship="viewControllers" id="aj8-Ye-xzB"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yQG-vP-PTG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="31" y="88"/>
         </scene>
-        <!--View Controller - Friends-->
+        <!--Net Style Network View Controller - Expand your network-->
         <scene sceneID="1oA-8V-3bf">
             <objects>
-                <viewController id="Efd-ld-fFi" sceneMemberID="viewController">
+                <viewController id="Efd-ld-fFi" customClass="NetStyleNetworkViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MQN-du-CBe"/>
                         <viewControllerLayoutGuide type="bottom" id="YVk-o4-u2f"/>
@@ -122,13 +165,71 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Friends" id="3gv-2y-rzl"/>
+                    <tabBarItem key="tabBarItem" title="Network" id="3gv-2y-rzl"/>
+                    <navigationItem key="navigationItem" title="Expand your network" id="xzv-Sw-xkn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kkn-y3-OOd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="565" y="414"/>
+            <point key="canvasLocation" x="1017" y="316"/>
+        </scene>
+        <!--Net Style Leader Table View Controller - Learn from the brightest-->
+        <scene sceneID="FFh-8j-Mcn">
+            <objects>
+                <tableViewController id="WqQ-s8-YAC" customClass="NetStyleLeaderTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="qXv-5W-ZTf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="glv-JI-fys">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="glv-JI-fys" id="1lu-g0-IIY">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Learn from the brightest" id="2w8-FS-h7l"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jFL-8G-AdY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1017" y="1004"/>
+        </scene>
+        <!--Navigation Controller - Gurus-->
+        <scene sceneID="E28-IR-EIe">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="ZtV-ff-bhk" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Gurus" id="bHG-TM-zpw"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qHo-9k-iAt">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="WqQ-s8-YAC" kind="relationship" relationship="rootViewController" id="Ypb-Yc-15C"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TdF-46-r9t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="555" y="1004"/>
+        </scene>
+        <!--Navigation Controller - Network-->
+        <scene sceneID="fMb-d6-WYE">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="RXH-TN-wt5" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Network" id="03C-vY-8rT"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8v1-5J-Z7S">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Efd-ld-fFi" kind="relationship" relationship="rootViewController" id="AgX-XM-jH0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V6T-B1-3hE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="555" y="316"/>
         </scene>
     </scenes>
     <resources>

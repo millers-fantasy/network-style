@@ -23,6 +23,20 @@
 		FB0C78B218C1205D008F1BB4 /* NetStyleTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0C78B118C1205D008F1BB4 /* NetStyleTabBarController.m */; };
 		FB0C78B518C12113008F1BB4 /* NetStyleProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0C78B418C12113008F1BB4 /* NetStyleProfileViewController.m */; };
 		FB0C78B818C12C4B008F1BB4 /* profpic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB0C78B718C12C4B008F1BB4 /* profpic.jpg */; };
+		FB0C78BB18C1AE34008F1BB4 /* NetStyleNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0C78BA18C1AE34008F1BB4 /* NetStyleNetworkViewController.m */; };
+		FB0C78BE18C1B25B008F1BB4 /* NetStyleColleaguesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0C78BD18C1B25B008F1BB4 /* NetStyleColleaguesTableViewController.m */; };
+		FB0C78C118C1B522008F1BB4 /* NetStyleLeaderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0C78C018C1B522008F1BB4 /* NetStyleLeaderTableViewController.m */; };
+		FB0C78C318C1B6F0008F1BB4 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0C78C218C1B6F0008F1BB4 /* Parse.framework */; };
+		FB0C78C518C1B8AB008F1BB4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0C78C418C1B8AB008F1BB4 /* AudioToolbox.framework */; };
+		FB0C78C718C1B8B2008F1BB4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0C78C618C1B8B2008F1BB4 /* CFNetwork.framework */; };
+		FB0C78C918C1B8BE008F1BB4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0C78C818C1B8BE008F1BB4 /* CoreLocation.framework */; };
+		FB0C78CB18C1B8C9008F1BB4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0C78CA18C1B8C9008F1BB4 /* libz.dylib */; };
+		FB0C78CD18C1B8D2008F1BB4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0C78CC18C1B8D2008F1BB4 /* MobileCoreServices.framework */; };
+		FB0C78CF18C1B8D9008F1BB4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0C78CE18C1B8D9008F1BB4 /* QuartzCore.framework */; };
+		FB0C78D118C1B8E0008F1BB4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0C78D018C1B8E0008F1BB4 /* Security.framework */; };
+		FB0C78D318C1B8ED008F1BB4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0C78D218C1B8ED008F1BB4 /* StoreKit.framework */; };
+		FB0C78D518C1B8F5008F1BB4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0C78D418C1B8F5008F1BB4 /* SystemConfiguration.framework */; };
+		FB0C78D818C1B9C3008F1BB4 /* NetStyleConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0C78D718C1B9C3008F1BB4 /* NetStyleConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +72,24 @@
 		FB0C78B318C12113008F1BB4 /* NetStyleProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetStyleProfileViewController.h; sourceTree = "<group>"; };
 		FB0C78B418C12113008F1BB4 /* NetStyleProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetStyleProfileViewController.m; sourceTree = "<group>"; };
 		FB0C78B718C12C4B008F1BB4 /* profpic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profpic.jpg; sourceTree = "<group>"; };
+		FB0C78B918C1AE34008F1BB4 /* NetStyleNetworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetStyleNetworkViewController.h; sourceTree = "<group>"; };
+		FB0C78BA18C1AE34008F1BB4 /* NetStyleNetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetStyleNetworkViewController.m; sourceTree = "<group>"; };
+		FB0C78BC18C1B25B008F1BB4 /* NetStyleColleaguesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetStyleColleaguesTableViewController.h; sourceTree = "<group>"; };
+		FB0C78BD18C1B25B008F1BB4 /* NetStyleColleaguesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetStyleColleaguesTableViewController.m; sourceTree = "<group>"; };
+		FB0C78BF18C1B522008F1BB4 /* NetStyleLeaderTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetStyleLeaderTableViewController.h; sourceTree = "<group>"; };
+		FB0C78C018C1B522008F1BB4 /* NetStyleLeaderTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetStyleLeaderTableViewController.m; sourceTree = "<group>"; };
+		FB0C78C218C1B6F0008F1BB4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		FB0C78C418C1B8AB008F1BB4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FB0C78C618C1B8B2008F1BB4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FB0C78C818C1B8BE008F1BB4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FB0C78CA18C1B8C9008F1BB4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FB0C78CC18C1B8D2008F1BB4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FB0C78CE18C1B8D9008F1BB4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FB0C78D018C1B8E0008F1BB4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FB0C78D218C1B8ED008F1BB4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FB0C78D418C1B8F5008F1BB4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FB0C78D618C1B9C3008F1BB4 /* NetStyleConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetStyleConstants.h; sourceTree = "<group>"; };
+		FB0C78D718C1B9C3008F1BB4 /* NetStyleConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetStyleConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +97,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB0C78D518C1B8F5008F1BB4 /* SystemConfiguration.framework in Frameworks */,
+				FB0C78D318C1B8ED008F1BB4 /* StoreKit.framework in Frameworks */,
+				FB0C78D118C1B8E0008F1BB4 /* Security.framework in Frameworks */,
+				FB0C78CF18C1B8D9008F1BB4 /* QuartzCore.framework in Frameworks */,
+				FB0C78CD18C1B8D2008F1BB4 /* MobileCoreServices.framework in Frameworks */,
+				FB0C78CB18C1B8C9008F1BB4 /* libz.dylib in Frameworks */,
+				FB0C78C918C1B8BE008F1BB4 /* CoreLocation.framework in Frameworks */,
+				FB0C78C718C1B8B2008F1BB4 /* CFNetwork.framework in Frameworks */,
+				FB0C78C518C1B8AB008F1BB4 /* AudioToolbox.framework in Frameworks */,
 				FB0C788218C11E0A008F1BB4 /* CoreGraphics.framework in Frameworks */,
 				FB0C788418C11E0A008F1BB4 /* UIKit.framework in Frameworks */,
+				FB0C78C318C1B6F0008F1BB4 /* Parse.framework in Frameworks */,
 				FB0C788018C11E0A008F1BB4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,6 +148,16 @@
 		FB0C787E18C11E0A008F1BB4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FB0C78D418C1B8F5008F1BB4 /* SystemConfiguration.framework */,
+				FB0C78D218C1B8ED008F1BB4 /* StoreKit.framework */,
+				FB0C78D018C1B8E0008F1BB4 /* Security.framework */,
+				FB0C78CE18C1B8D9008F1BB4 /* QuartzCore.framework */,
+				FB0C78CC18C1B8D2008F1BB4 /* MobileCoreServices.framework */,
+				FB0C78CA18C1B8C9008F1BB4 /* libz.dylib */,
+				FB0C78C818C1B8BE008F1BB4 /* CoreLocation.framework */,
+				FB0C78C618C1B8B2008F1BB4 /* CFNetwork.framework */,
+				FB0C78C418C1B8AB008F1BB4 /* AudioToolbox.framework */,
+				FB0C78C218C1B6F0008F1BB4 /* Parse.framework */,
 				FB0C787F18C11E0A008F1BB4 /* Foundation.framework */,
 				FB0C788118C11E0A008F1BB4 /* CoreGraphics.framework */,
 				FB0C788318C11E0A008F1BB4 /* UIKit.framework */,
@@ -117,14 +169,22 @@
 		FB0C788518C11E0A008F1BB4 /* Network Style */ = {
 			isa = PBXGroup;
 			children = (
+				FB0C78D618C1B9C3008F1BB4 /* NetStyleConstants.h */,
+				FB0C78D718C1B9C3008F1BB4 /* NetStyleConstants.m */,
 				FB0C788E18C11E0A008F1BB4 /* NetStyleAppDelegate.h */,
 				FB0C788F18C11E0A008F1BB4 /* NetStyleAppDelegate.m */,
 				FB0C789118C11E0A008F1BB4 /* Images.xcassets */,
 				FB0C788618C11E0A008F1BB4 /* Supporting Files */,
 				FB0C78B318C12113008F1BB4 /* NetStyleProfileViewController.h */,
 				FB0C78B418C12113008F1BB4 /* NetStyleProfileViewController.m */,
+				FB0C78B918C1AE34008F1BB4 /* NetStyleNetworkViewController.h */,
+				FB0C78BA18C1AE34008F1BB4 /* NetStyleNetworkViewController.m */,
 				FB0C78B018C1205D008F1BB4 /* NetStyleTabBarController.h */,
 				FB0C78B118C1205D008F1BB4 /* NetStyleTabBarController.m */,
+				FB0C78BC18C1B25B008F1BB4 /* NetStyleColleaguesTableViewController.h */,
+				FB0C78BD18C1B25B008F1BB4 /* NetStyleColleaguesTableViewController.m */,
+				FB0C78BF18C1B522008F1BB4 /* NetStyleLeaderTableViewController.h */,
+				FB0C78C018C1B522008F1BB4 /* NetStyleLeaderTableViewController.m */,
 			);
 			path = "Network Style";
 			sourceTree = "<group>";
@@ -268,8 +328,12 @@
 			files = (
 				FB0C789018C11E0A008F1BB4 /* NetStyleAppDelegate.m in Sources */,
 				FB0C788C18C11E0A008F1BB4 /* main.m in Sources */,
+				FB0C78C118C1B522008F1BB4 /* NetStyleLeaderTableViewController.m in Sources */,
+				FB0C78D818C1B9C3008F1BB4 /* NetStyleConstants.m in Sources */,
 				FB0C78B518C12113008F1BB4 /* NetStyleProfileViewController.m in Sources */,
+				FB0C78BE18C1B25B008F1BB4 /* NetStyleColleaguesTableViewController.m in Sources */,
 				FB0C78B218C1205D008F1BB4 /* NetStyleTabBarController.m in Sources */,
+				FB0C78BB18C1AE34008F1BB4 /* NetStyleNetworkViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +452,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/kevinroark/code/ios/network-style/Network\\ Style",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Network Style/Network Style-Prefix.pch";
 				INFOPLIST_FILE = "Network Style/Network Style-Info.plist";
@@ -401,6 +469,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/kevinroark/code/ios/network-style/Network\\ Style",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Network Style/Network Style-Prefix.pch";
 				INFOPLIST_FILE = "Network Style/Network Style-Info.plist";
@@ -470,6 +542,7 @@
 				FB0C78AA18C11E0A008F1BB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB0C78AB18C11E0A008F1BB4 /* Build configuration list for PBXNativeTarget "Network StyleTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +551,7 @@
 				FB0C78AD18C11E0A008F1BB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

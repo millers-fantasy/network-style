@@ -34,7 +34,6 @@
     self.profileImageView.layer.borderColor = [UIColor grayColor].CGColor;
     self.profileImageView.layer.masksToBounds = YES;
     
-    
     self.friendCountLabel.layer.borderColor = [UIColor darkGrayColor].CGColor;
     self.friendCountLabel.layer.borderWidth = 1.0;
     self.friendCountLabel.layer.cornerRadius = self.friendCountLabel.frame.size.width / 2;
